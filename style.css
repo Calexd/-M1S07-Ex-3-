@@ -13,16 +13,10 @@ body {
 
 
 
-.container {
+.container-signin {
     background-image: url(./assets/img-back2.jpg);
     background-size:cover;
     background-position: center;
-    
-    position: relative;
-    border-radius: 20px;
-    margin-top: 20px;
-    height: 600px;
-    width: 1200px;
 }
 
 .signin-flex {
@@ -30,6 +24,60 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+/* ------------------------------------------- styles general -------------------------------- */
+
+.container {
+    position: relative;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 600px;
+    width: 1200px;
+}
+
+
+.style-inputs {
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.style-buttons {
+    margin: 10px;
+    border: none; 
+    border-radius: 10px; 
+    width: 100%;
+    height: 50px;   
+    cursor: pointer; 
+    font-size: 16px;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+
+
+.style-buttons:hover {
+    transform: scale(1.05);
+}
+
+
+.blue-button {
+    background-color: rgb(35, 143, 206); 
+    color: white; 
+}
+
+
+
+
+
+/* ---------------------------- Sign In page ------------------------------ */
+
 
 /* box login style left  */
 
@@ -65,7 +113,7 @@ body {
 }
 
 
-/*---------------- box login style right ------------------ */
+/* box login style right  */
 
 .signin-right {
     display: flex;
@@ -83,34 +131,6 @@ body {
     text-align: right;
 }
 
-.login input{
-    width: 100%;
-    height: 55px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-    outline: none;
-    border: none;
-    background-color: rgb(226, 226, 226);
-}
-
-.login button {
-    background-color: rgb(35, 143, 206); 
-    color: white; 
-    border: none; 
-    border-radius: 10px; 
-    width: 100%;
-    height: 50px;
-    cursor: pointer; 
-    font-size: 16px; 
-    transition: transform 0.3s;
-    font-weight: bold;
-}
-
-button:hover {
-    transform: scale(1.05);
-  }
-
 
 .login-with {
     display: flex;
@@ -119,17 +139,6 @@ button:hover {
     margin-bottom: 50px;
 }
 
-.login-with button {
-    margin: 10px;
-    border: none; 
-    border-radius: 10px; 
-    width: 100%;
-    height: 50px;   
-    cursor: pointer; 
-    font-size: 16px;
-    transition: transform 0.3s;
-    font-weight: bold;
-}
 
 .login-with img {
     height: 20px;
@@ -157,3 +166,55 @@ a {
     color: rgb(51, 51, 51);
 
 }
+
+
+
+/* ---------------------------- Register page ------------------------------ */
+
+
+.container-signup {
+    background-image: url(https://nvm.edu.in/wp-content/uploads/2020/07/Background-website-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    margin-bottom: 20px;
+}
+
+
+
+.logo-section-left {
+    width: 300px;
+
+}
+.logo-section-left img {
+    position: relative;
+    height: 120px;
+    width: 300px;
+}
+
+.register-section-right img {
+    margin-top: 280px;
+    height: 300px;
+}
+
+.signin-center-text h1 {
+    margin-top: 70px;
+    font-size: 35px;
+}
+
+
+.register-section-center {
+    width: 500px;
+    height: 200px;
+    margin-top: 0px;
+
+}
+
+
+.form-register {
+    height: 200px;
+    width: 500px;
+}
+
+
