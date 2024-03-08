@@ -9,17 +9,21 @@
 <body>
     <section class="container signin-flex">
         <div class="signin-left">
-            <h1>Sign in to this session</h1>
-            <p>If you dont have a account, you can <b>Register Here!</b></p>
+            <div class="signin-left-text" >
+                <h1>Sign in to this session</h1>
+                <p>If you dont have a account, you can <a href="#">Register Here!</a></p>
+            </div>
+            <div class="signin-left-img">
+                <img src="./assets/login.png" alt="picture-login-ilustr">
+            </div>
         </div>
         <div class="signin-right">
             <form class="login">
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username">
-
-                <label for="password">Usuario:</label>
-                <input type="password" id="password" name="password">
-                <p>Forgot password?</p>
+                <label for="username"></label>
+                <input type="text" placeholder="Username or Email">
+                <label for="password"></label>
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot password?</a>
                 
                 <button type="submit">Sign In</button>
             </form>
@@ -29,17 +33,18 @@
                 <p>Or</p>
                 <div class="line"></div>
             </div>
-
             <div class="login-with">
-                <button>Continue width Google</button>
-                <button>Continue width Facebook</button>
+                <button>
+                    <img src="https://logopng.com.br/logos/google-37.png" alt="Google">
+                    Continue with Google
+                </button>
+                <button>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="Facebook">
+                    Continue with Facebook
+                </button>
             </div>
-
         </div>
-
-
     </section>
-
     <script src="script.js"></script>
 </body>
 </html>
