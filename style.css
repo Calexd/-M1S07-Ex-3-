@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 600px;
+    width: 1200px;
+}
+
+.signin-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 130px;
+    height: 300px;
+}
+
+.signin-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
